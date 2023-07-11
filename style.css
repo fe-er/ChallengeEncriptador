@@ -154,7 +154,7 @@ button{
         height: 60rem;
         margin-top: 5rem;
         
-        background-image: url("/images/search.png");
+        background-image: url("./images/search.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 250px;
