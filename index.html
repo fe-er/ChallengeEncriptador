@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap" rel="stylesheet">
+    <title>Challenge-Encriptador</title>
+</head>
+<body class="contenedor">
+    <div class="rigth">
+        <header>
+            <h1>
+                <img class="logo" src="/images/logo.png" alt="logo-alura-f">
+            </h1>
+            <h2>Hola! Bienvenid@ al encriptador de texto</h2>
+        </header>
+        
+        <section class="input-text">
+            <textarea class="input-message" placeholder="ingrese el texto aqui..."></textarea>
+            <p class="instruction">! Solo letras minusculas y sin acentos</p>
+            <div class="buttons">
+                <button class="btn-enc" onclick="btnEncrypt()">Encriptar</button>
+                <button class="btn-des" onclick="btnDecrypt()">Desencriptar</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="left">
+        <textarea readonly class="message">
+        </textarea>
+        <div class="no-find">
+            <h3 class="no-mesage">Ningún mensaje fue encontrado</h3>
+            <p>Ingresa el texto que desees encriptar o esencriptar</p>
+        </div>
+        
+        <button class="copy" onclick="copyText()">Copiar</button>
+    </div>
+
+    <footer>
+        <p class="footer">*By Fer</p>
+    </footer>
+
+<script src="/script.js"></script>
+</body>
+</html>
